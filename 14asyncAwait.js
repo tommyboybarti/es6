@@ -36,12 +36,10 @@ more();
 // This is to execute the functions at the same time, 
 // so we don't wait for the frist await and then only run the second
 function getHome() {
-  // don't forget to return the Promise!
   return Promise.resolve('Calgary');
 }
 
 function getJob() {
-  // don't forget to return the Promise!
   return Promise.resolve('Crap');
 }
 

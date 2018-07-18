@@ -1,4 +1,8 @@
 // new data type Symbol()
+// the data type "symbol" is a primitive data type having the quality that, 
+// values of this type can be used to make object properties that are anonymous. 
+// this data type is used as the key for an object property when the property is intended to be private, 
+// for the internal use of a class or an object type.
 const symA = Symbol()
 const symB = Symbol('key goes here')
 

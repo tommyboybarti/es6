@@ -13,7 +13,7 @@ class Person {
 }
 const person = new Person('jade', 20);
 
-// run a method, where no () are needed
+// run a method, where no () are needed, because of getter
 const name = person.name;
 name;
 

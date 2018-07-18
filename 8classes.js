@@ -10,7 +10,7 @@ const persones5 = new PersonES5('bob', 20);
 persones5;
 persones5.jump();
 
-// ES 6 (this class definition will not be hoisted to the top of the scope -> needs a class expression like const Person = class {})
+// ES 6 (this class DEFINITION will not be hoisted to the top of the scope -> needs a class EXPRESSION like const Person = class {})
 class Person {
   constructor (name, age) {
     this.name = name;

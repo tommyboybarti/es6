@@ -1,5 +1,5 @@
 // static members = method attached to the class and not the instance
-// this class expression will be hoisted to the top of the scope
+// this class EXPRESSION will be hoisted to the top of the scope
 const Person = class {
   constructor (name, age) {
     this.name = name;
@@ -10,9 +10,9 @@ const Person = class {
   }
 }
 
-const person = new Person('bobl', 20);
+const person = new Person('bobby', 20);
 // referencing class name to change instance
-Person.setName(person, 'hell');
+Person.setName(person, 'jade');
 person;
 
 // another example without declaring Object class

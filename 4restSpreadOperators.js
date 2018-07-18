@@ -18,6 +18,7 @@ function printAgain () {
 }
 printAgain('hello', 'world');
 
+//ES6
 function printAgain6 (...args) {
   args = ['<br>', ...args, '</br>']
   console.log(args.join(' '));
@@ -30,7 +31,7 @@ const message = "hello world";
 const chars = ['!', ...message];
 chars;
 
-function add(a,b) {
+function add(a, b) {
   return a + b;
 }
 const arr = [2, 10];
@@ -52,6 +53,7 @@ max;
 
 // Examples:
 function sum(...numbers) {
+  // reduce the values of an array to a single value (going left-to-right)
   return numbers.reduce((acc, number) => acc + number);
 }
 
@@ -63,10 +65,12 @@ console.log(answer);
 // the first parameter is the base number we add to the other numbers that we multiply by two; 
 // therefore, the returned value is an array of length 4 only containing the REST of the parameters after base.
 function multiplyBy2(base, ...numbers) {
+  // creates a new array with the result of calling a function for each array element
   return numbers.map(number => number * 2 + base)
 }
-const answer = multiplyBy2(100, 1, 5, 20, 10);
-console.log(answer);
+const anotherAnswer = multiplyBy2(100, 1, 5, 20, 10);
+console.log(anotherAnswer);
+
 
 const names = [
   'bob', 

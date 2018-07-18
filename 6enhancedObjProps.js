@@ -17,13 +17,13 @@ person;
 const key = 'last'
 
 function getKey() {
-  return 'hello';
+  return 'job';
 }
 const person2 = {
   first: 'john',
   [key]: 'harvey',
   ['age']: 20,
-  [getKey()]: 'testing'
+  [getKey()]: 'tester'
 }
 
 person2;

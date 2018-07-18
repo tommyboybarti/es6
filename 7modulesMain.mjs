@@ -8,11 +8,11 @@ import {
 } from './7modulesAdd.mjs';
 
 const value = add(1, 2);
-const subtract = mySubtractFct(1, 2)
+const subtractAgain = mySubtractFct(1, 2)
 
 console.log(
 `${value}, 
-${subtract}`
+${subtractAgain}`
 )
 
 // we can name the default import whatever we want

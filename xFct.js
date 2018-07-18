@@ -1,3 +1,6 @@
+// fct definition = declaration = statement means that the fct has got a name
+// !== fct expression. fct can be annoymous const something = fct () {}
+
 // name is the parameter at the time of the fct execution
 function greet(name) {
   console.log(`hello ${name}`)

@@ -1,5 +1,4 @@
 const message = 'hello world';
-
 // loop over iterable obj -> prints out a lamda, so it's an actual fct that can be used. Ergo also an iterable obj.
 console.log(message[Symbol.iterator]);
 // new to ES6 For Of
@@ -32,7 +31,7 @@ const codes = {
       next () {
         // declare an obj with props
         return {
-          value: Math.random(),
+          value: Math.random()*100,
           done: cur++ > 4
         }
       }
